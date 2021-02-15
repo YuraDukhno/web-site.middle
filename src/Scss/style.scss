@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  padding: 0 33.5px;
+}
+
+.main__wrapper {
+  background-image: url("../Assets/Desktop/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 26.5px;
+  width: 1020px;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .scroll__wrapper {
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .scroll__text {
+      text-transform: uppercase;
+      font-size: 9px;
+      letter-spacing: 0.3px;
+      color: white;
+      font-family: "PT Sans", sans-serif;
+    }
+    .scroll__arrow {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  .header__wrapper {
+    .header__navbar {
+      margin: 0px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .navbar-item {
+      display: block;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.3px;
+      color: white;
+      font-family: "PT Sans", sans-serif;
+      padding: 0 20px;
+    }
+    .bottom-line {
+      margin: 0;
+      height: 0px;
+      border-top: 1px solid rgb(255, 255, 255);
+    }
+  }
+}
