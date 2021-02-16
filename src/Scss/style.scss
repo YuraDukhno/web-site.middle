@@ -9,13 +9,13 @@ body {
   padding: 0 33.5px;
 }
 
-.main__wrapper {
+.home__wrapper {
   background-image: url("../Assets/Desktop/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 26.5px;
-  width: 1020px;
-  height: 540px;
+  width: 100%;
+  height: 620px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,8 +58,9 @@ body {
     }
     .bottom-line {
       margin: 0;
-      height: 0px;
+      height: 0;
       border-top: 1px solid rgb(255, 255, 255);
+      border-bottom: 0px;
     }
   }
 }

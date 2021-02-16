@@ -4,7 +4,7 @@ import arrow from "../Assets/Desktop/double-arrow.png";
 
 export default function Home() {
   return (
-    <div className="main__wrapper">
+    <div className="home__wrapper">
       {/* Header navigation */}
       <Header />
       <div className="scroll__wrapper">
